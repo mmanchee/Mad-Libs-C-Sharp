@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Create a Mad-Lib!</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <h1>Fill in the forms with words of your choice!</h1>
+    <form action="/madlib" method="post">
+    <label for="noun">Noun</label>
+    <input id="noun" name="noun" type="text"><br>
+    <label for="exclamation">Exclamation</label>
+    <input id="exclamation" name="exclamation" type="text"><br>
+    <label for="verb">Verb</label>
+    <input id="verb" name="verb" type="text"><br>
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text"><br>
+    <label for="dog">Dog Name</label>
+    <input id="dog" name="dog" type="text"><br>
+    <label for="monster">Monster</label>
+    <input id="monster" name="monster" type="text"><br>
+    <button type="submit">Show Story</button>
+    </form>
+  </body>
+</html>
